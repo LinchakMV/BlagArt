@@ -1,0 +1,64 @@
+@media only screen and (max-width: 767px) {
+    .main-wrapper{
+        padding: 0;
+        align-items: stretch;
+    }
+    header{
+        padding: 0;
+        .mob-nav{
+            display: block;
+        }
+        .search{
+            margin-bottom: 17px;
+            margin-left: 10px;
+        }
+        .search__left .logo-box{
+            font-size: 13px;
+            a{
+                width: 75%;
+            }
+        }
+        form, .search__right{
+            display: none;
+        }
+                       
+        .right__tablet{
+            display: none;
+        }
+        nav{
+            display: none !important;
+        }
+    }
+    .content{
+        padding: 0;
+        .slider{
+            height: 124px;
+            .banner {
+                width: 191px;
+                height: 43px;
+                transform: translate(27px, -50%);
+                span{
+                    padding-left: 10px;
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+            .slick-prev, .slick-next{
+                width: 20px;
+                height: 28px;
+            }
+            .slick-prev:before,
+            .slick-next:before{
+                width: 8px;
+                height: 14px;
+                background-image: url("../img/mob-arrow-left.png");
+            }
+            .slick-prev:hover:before,
+            .slick-next:hover:before{
+                background-image: url("../img/arrow-mob.png");
+            }
+        }
+    }
+}
+
+

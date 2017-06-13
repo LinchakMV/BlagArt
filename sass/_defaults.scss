@@ -1,0 +1,14 @@
+html, body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.main-wrapper{
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 320px;
+    padding: 0 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;    
+}
